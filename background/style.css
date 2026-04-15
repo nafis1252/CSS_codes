@@ -1,0 +1,37 @@
+/*background-image*/
+body{
+    background-image: url("image1.webp");
+}
+.img{
+    background-image: url("image2.webp");
+    color:white;
+}
+
+/*background-repeat*/
+body{
+    background-repeat: repeat; /*repeat horizontally & vertically*/
+    background-repeat: repeat-x; /*repeat horizontally*/
+    background-repeat: repeat-y; /*repeat vertically*/
+    background-repeat: no-repeat; /*image will apear once*/
+    background-position: center top;
+}
+/*background-position*/
+html{
+    background-color: antiquewhite;
+    background-image: url("image2.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+/*background-attachment*/
+    background-attachment: fixed;
+}
+body{
+    background-attachment: scroll;
+}
+
+/*background-color*/
+div>p{
+    background-color: bisque;
+}
+div>h1{
+    background-color: aqua;
+}

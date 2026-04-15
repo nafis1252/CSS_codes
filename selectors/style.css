@@ -40,4 +40,7 @@ p{
 }
 p{
     border:none;
+    background-color: transparent;
+    border: 2px solid red;
+    text-align:center;
 }
