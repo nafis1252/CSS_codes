@@ -1,0 +1,43 @@
+body{
+    background-color: antiquewhite;
+}
+p{
+    background-color: aqua;
+}
+.modest{
+    color:dimgray;
+}
+ul li a{
+    text-decoration:none;
+}
+div p{
+    font-size: larger;
+}
+div>p{
+    color:red;
+}
+li{
+    list-style: none;
+}
+div p{
+    width:50%;
+    margin:0;
+    padding:0;
+}
+div>p{
+    width:auto;
+    margin:5px;
+    padding:2%;
+}
+section>p{
+    color:rgb(105, 103, 99);
+}
+p{
+    border:2px solid red;
+}
+*{
+    border:none;
+}
+p{
+    border:none;
+}
