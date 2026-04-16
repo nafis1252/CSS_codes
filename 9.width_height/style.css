@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+div{
+    margin:20px;
+    text-align: center;
+}
+#ele1{
+    background-color: antiquewhite;
+    border:2px solid red;
+    width:500px;
+    height:600px;
+}
+#ele2{
+    background-color: aquamarine;
+    width:70%;
+    height:150px;
+    box-sizing: border-box;
+}
+#ele3{
+    border:2px double black;
+    width:auto;
+    margin:25px;
+}

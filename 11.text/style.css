@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+p{
+    margin:2% auto;
+    width:80%;
+}
+/*text-align*/
+#col1{
+    color:#ff00ff;
+    text-align:left; /*It is default. So, no changes visible.*/
+}#col2{
+    color:red;
+    text-align:right;
+}
+#col3{
+    color: hsla(84, 32%, 35%, 0.685);
+    text-align:center;
+}
+#col4{
+    color:aqua;
+    text-align: justify;
+}
+/*text-align-last*/
+.la1{
+    text-align-last:left;
+    text-align-last: right;
+}
+.la2{
+    text-align-last:center;
+    text-align-last:justify;
+}
+.la3{
+    text-align-last:start;
+    text-align-last: end;
+}
+/*vertical-align*/
+.ver{
+    background-color: aliceblue;
+    border:2px solid red;
+    width:50%;
+    height:500px;
+    vertical-align: text-bottom;
+}
+/*text-decoration*/
+#dec1{
+    text-decoration:underline red solid 2px;
+}
+#dec2{
+    text-decoration: overline green double 5px;
+}
+#dec3{
+    text-decoration:line-through blue wavy 1px;
+}
+/*text-transform*/
+#dec1{
+    text-transform: capitalize;
+}
+#dec2{
+    text-transform: uppercase;
+}
+#dec3{
+    text-transform: lowercase;
+}
+/*text-indent*/
+.spac{
+    width:auto;
+    text-indent:70px;
+}
+/*letter-spacing*/
+h1{
+    letter-spacing:5px;
+}
+h2{
+    letter-spacing: -2px;;
+}
+/*line-height*/
+.spac{
+    line-height: 1.8;
+}
+/*word-spacing*/
+.spac{
+    word-spacing:10px;
+    word-spacing:-2px;
+}
+/*white-space*/
+.white{
+    white-space: no-wrap;
+    white-space: pre-line;
+    white-space: pre-wrap;
+
+}

@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    color:red;
+}
+h2{
+    background-color: antiquewhite;
+}
+.non_res{
+    width:300px;
+    background-color: aqua;
+    border:5px solid red;
+    margin:15px;
+    padding:10px;
+}/*Total width=300px+(5+5)px+(10+10)px=330px;*/
+.res{
+    width:60%;
+    text-align:center;
+    margin:5% auto;
+    background-color: brown;
+    padding:2%;
+    border: 2px solid black;
+}/*Total width=60%+(2+2)%+(2+2)%=68% ||The div will take 68% width of screen*/

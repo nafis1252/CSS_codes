@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+}
+h2{
+    border:2px solid red;
+    margin:15px;
+}
+div{
+    width:500px;
+    height:300px;
+    border:2px dashed green;
+    margin-top:15px;
+    margin-left: 25px;
+    margin: 25px 50px;
+    margin:10px auto;
+    padding:0;
+}
+div>h2{
+    margin:0;
+    margin-bottom:50px;
+}
+div>h3{
+    border:2px solid black;
+    margin-top:20px;
+}

@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+p{
+    background-color: bisque;
+    width:500px;
+    margin:5px;
+    margin-left:10px;
+    padding:10px;
+    border:10px solid green;
+    outline: 10px solid red;
+    outline-offset: 25px;
+}
