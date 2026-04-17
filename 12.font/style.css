@@ -1,0 +1,45 @@
+.ser{
+    font-family: 'Times New Roman', Times, serif;
+}/*If "Times new roman" is not available, it will lool for next two: Times, serif.*/
+.san{
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+.mono{
+    font-family: 'Courier New', Courier, monospace;
+}
+.cur{
+    font-family: cursive;
+}
+.fan{
+    font-family: fantasy;
+    color:red;
+    letter-spacing:2px;
+    font-weight:100;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+.web{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size:20px;
+}
+.sty{
+    font-style: italic;
+    font-style:normal;
+    font-style:oblique;
+}
+.size{
+    font-size: larger;
+    font-size:15px;
+    font-size:2em;
+}
+.weight{
+    font-weight: bold;
+    font-weight:lighter;
+    font-weight: 700;
+}
+.size>h3{
+    font-variant: small-caps;
+}
+.shorthand{
+    font: italic small-caps 800 20px sans-serif;
+}
