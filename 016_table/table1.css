@@ -1,0 +1,16 @@
+table,th,td{
+    border:2px solid red;
+    border-collapse: separate;
+    border-spacing:10px;
+    border-collapse: collapse;
+}
+table{
+    margin:15px;
+}
+th{
+    padding:10px;
+}
+td{
+    padding:20px;
+    
+}

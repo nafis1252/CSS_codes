@@ -1,0 +1,11 @@
+.block{
+    display: block;
+    background-color: aquamarine;
+    width:50%;
+}
+
+.inline-block{
+    display: inline-block;/*stays in common line but accept all block prperties*/
+    background-color:blueviolet;
+    width:190px;
+}

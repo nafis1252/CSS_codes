@@ -1,0 +1,23 @@
+table,th,td{
+    border: 2px double red;
+    border-collapse: collapse;
+}/*
+.container{
+    width:500px;
+    border:2px solid green;
+    margin:5px auto;
+    overflow:auto;
+    overflow: visible;
+    overflow:scroll;
+    overflow:hidden;
+}
+table{
+    width:700px;
+}*/
+table{
+    width:70%;
+    height:80px;
+    margin:15px auto;
+    outline:2px solid magenta;
+    outline-offset: 15px;
+}
