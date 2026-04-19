@@ -1,0 +1,43 @@
+.static{
+    background-color: antiquewhite;
+    width:50%;
+    height:150px;
+    position:static;
+    left:50px;/*will not work*/
+    top:15px;/*will not work*/
+    border:1px solid;
+}
+.relative{
+    background-color: aquamarine;
+    width:50%;
+    margin:0;
+    height:200px;
+    border:2px solid red;
+    position:relative;
+    top:35px; /*makes 15px space from top*/
+    left:25px;/*makes 25px space from left*/
+}
+.child_absolute{
+    color:black;
+    background-color: brown;
+    width:50%;
+    height:50%;
+    position:absolute;
+    left:25%;
+    top:25%;
+    /*when of a absolute child div's parent is relative*/
+    /*or if the parent is absolute it will define it's body as a relative parent of it and act depending on body shape of html file with his child div*/
+}
+.absolute{
+    background-color: cadetblue;
+    width:500px;
+    height: 500px;
+    position: absolute;
+    z-index:-1;
+    top:25px;
+    left:55px;
+}
+
+p{
+    margin:0;
+}
