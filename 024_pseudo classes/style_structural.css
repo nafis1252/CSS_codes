@@ -1,0 +1,29 @@
+p:first-child{
+    color:red;
+}/*It works only when parents first child is <p>*/
+p:first-of-type{
+    background-color: antiquewhite;
+}/*It works when it finds first <p> anywhere else.*/
+p:only-child{
+    border:2px solid red;
+}
+li:nth-of-type(odd){
+    color:green
+}
+li:nth-child(even) {
+  background: #f2f2f2;
+}
+section{
+    color:red;
+}
+tr:first-of-type{
+    color:red;
+}
+tr:nth-of-type(even){
+    background-color: antiquewhite;
+}
+td:nth-child(odd):hover{
+    color:blue;
+    font-size:larger;
+    cursor:pointer;
+}

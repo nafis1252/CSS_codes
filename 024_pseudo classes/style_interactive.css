@@ -1,0 +1,42 @@
+/*interactive pseudo classes*/
+a:link{
+    color:green;
+    font-size:50px;
+    text-decoration-style:dotted;
+}
+a:visited{
+    color:red;
+    border:2px solid green;
+}
+a:hover{
+    background-color: aquamarine;
+    text-decoration-style: solid;
+}
+a:active{
+    color:blue;
+}
+a:hover+p{
+    color:red;
+}
+input:focus{
+   background-color:yellow;
+}
+input:focus-visible{
+    outline: 2px solid green;;
+}
+div:focus-within{
+    border:2px solid red;
+}
+
+/*structural pseudo classes*/
+tr:nth-child(2n+2){
+    color:red;
+}
+li:first-child {
+  color: red;
+  list-style-position: inside;
+}
+td:first-child:hover{
+    color:aqua;
+    cursor:default;
+}

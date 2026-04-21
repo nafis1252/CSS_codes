@@ -1,0 +1,22 @@
+img{
+    float:left;
+    margin:10px;
+}
+p{
+    text-align: justify;
+    text-align-last:center;
+}
+.div1,.div2,.div3{
+    background-color: aqua;
+    margin:5px;
+    padding:10px;
+    float: right;
+    cursor:default;
+}
+.container{
+    background-color: antiquewhite;
+    display: inline-block;
+    margin:0 auto;/*not working*/
+    display: flex;
+    justify-content: center;
+}

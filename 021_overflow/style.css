@@ -1,0 +1,37 @@
+table,th,td{
+    border:2px solid red;
+    border-collapse: collapse;
+}
+.container{
+    overflow:scroll;
+    overflow:visible;
+    overflow:hidden;
+    overflow: auto;
+}
+table{
+    width:1000px;
+}
+th,td{
+    width:100px;
+}
+table{
+    overflow:scroll;
+}
+
+.first{
+    width:500px;
+    height:200px;
+    background-color: antiquewhite;
+    overflow:hidden;
+    overflow:auto;
+    padding:15px;
+    box-sizing: border-box;
+    border:2px solid red;
+}
+.sec{
+    width:500px;
+    height:100px;
+    border:2px solid green;
+    overflow-x:scroll;
+    box-sizing:border-box;
+}
