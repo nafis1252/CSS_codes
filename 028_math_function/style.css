@@ -1,0 +1,19 @@
+#div1 {
+  width: calc(100% - 100px);
+  height: calc(30vh + 50px);
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+#div3{
+    height: 100px;
+    width: min(50%, 300px);
+    border: 1px solid black;
+    padding: 10px;
+}
+#div4{
+    border: 1px solid green;
+    padding: 10px;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    width: clamp(200px, 50%, 600px);  
+}
