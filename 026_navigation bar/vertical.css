@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:20%;
+    height:auto;
+    background-color: brown;
+    margin:0 auto;
+    border-radius: 0 0 15px 15px;
+}
+.item{
+    padding:7px;
+    padding-left:10px;
+    list-style:none;
+    text-align: center;
+}
+.item:visited{
+    background-color: blue;
+}
+
+.item:hover{
+    background-color: blue;
+}
+.item:active{
+    color:gray;
+}
+li:last-child:hover{
+    background-color: blue;
+    border-radius: 0 0 15px 15px;
+}
+
+
+a{
+    text-decoration:none;
+    color:white;
+    font-size: 20px;
+}

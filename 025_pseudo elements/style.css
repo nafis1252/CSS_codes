@@ -1,0 +1,37 @@
+.hello::before{
+    content: "★ ";
+    color: greenyellow;
+}
+.hello::after{
+    content: " ✔";
+    color:red;
+}
+.card::before {
+  content: "🔥 ";
+}
+.cart::first-letter{
+    font-size:30px;
+    color:red;
+}
+.cart::first-line{
+    font-family: cursive;
+    font-weight: bolder;
+}
+.cart::selection{
+    color:red;
+    background-color: greenyellow;
+}
+li::marker{
+    font-size: 20px;
+    color:red;
+    background-color: greenyellow;
+}
+.ol{
+    list-style-type:decimal-leading-zero;
+    list-style-type:upper-alpha;
+}
+
+.ol::marker{
+    color:green;
+    font-size:larger;
+}

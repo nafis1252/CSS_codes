@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    background-color: aquamarine;
+    width:70%;
+    border-radius: 0 0 15px 15px;
+    margin: 0 auto;
+}
+.nav{
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.nav-item{
+    list-style-position: inside;
+    list-style: none;
+    padding:10px;
+    display: inline-block;
+    margin: 0 auto;
+    color:black;
+    text-decoration: none;
+}
+.nav-item:hover{
+    background-color: aqua;
+}
