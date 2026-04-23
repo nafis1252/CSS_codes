@@ -1,0 +1,27 @@
+.container{
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:70%;
+    height:200px;
+    background: red;
+    justify-content: space-around;
+    gap:20px;
+    align-items: flex-start;
+    align-content: center;
+
+}
+.child{
+    background-color: blue;
+    color:white;
+    font-size:larger;
+    padding:10px;
+}
+@media(max-width:500px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

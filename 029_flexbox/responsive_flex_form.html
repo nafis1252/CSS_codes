@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive flex table</title>
+    <link rel="stylesheet" href="responsive_flex_form.css">
+</head>
+<body>
+    <div class="main">
+        <div class="tag">
+            <h1>Responsive Registration Form</h1>
+        </div>
+        <form action="" method="">
+            <div class="container">
+                <h2>Registration Form</h2>
+                    <div class="sub_container">
+                        <div class="card">
+                            <p>Full Name</p>
+                            <input type="text" name="fullname" id="fullname">
+                        </div>
+                        <div class="card">
+                            <p>Email Address</p>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="card mobile">
+                            <p>Mobile Number</p>
+                            <input type="number" name="number" id="number">
+                        </div>
+                        <div class="card birth_date">
+                            <p>Birth Date</p>
+                            <input type="date" name="date" id="date">
+                        </div>
+                        <div class="card gender">
+                            <p>Gender</p>
+                            <div class="gen">
+                                <div>
+                                    <input type="radio" name="gender" id="gender" value="male">
+                                    <label for="male">Male</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="gender" id="gender" value="female">
+                                    <label for="female">Female</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="gender" id="gender" value="Not_to_say">
+                                    <label for="not_to_say">Prefer not to say</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p>Address</p>
+                            <div class="address">
+                                <input type="text" name="address" id="address" placeholder="Enter address">
+                                <select name="country" id="country">
+                                    <option value="" selected hidden disabled>Country</option>
+                                    <option value="bangladesh">Bangladesh</option>
+                                    <option value="england">England</option>
+                                    <option value="north_korea">North Korea</option>
+                                </select>
+                                <input type="number" name="postal_code" id="number" placeholder="Enter postal code">
+                            </div>
+                        </div>
+                        <input type="submit" value="Submit" name="submit">
+                        
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
